@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <script src="js/apexcharts.js"></script>
+    <script src="popup.js"></script>
+    <div class="header">
+      <h1 id="title">My 10 most watched streamers</h1>
+      <div class="help-container">
+        <div class="help">?</div>
+        <div class="help-tooltip" style="display: none;">
+          <div>Usage</div>
+          <ul>
+            <li>The data is updated every few seconds, re-open the popup window to see fresh data.</li>
+            <li>The time watched doesn't update if the tab is not visible (it's essentially paused until visible again.)</li>
+            <li>The extension will add new bars in the chart and adjust scales and layout automatically as you watch more streams.</li>
+          </ul>
+          <div>Troubleshooting tips:</div>
+          <ul>
+            <li>If you have a Twitch tab open when installing the extension it might cause issues, reload the tab.</li>
+            <li>If that doesn't solve it, restart Chrome.</li>
+            <li>Finally, try reloading the extension.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="list"></div>
+    <div class="button-group">
+      <div class="clear-data-tooltip" style="display:none;">Make sure you re-open this popup window after clicking the Clear data button</div>
+      <button id="clear-data">Clear data</button>
+    </div>
+  </body>
+</html>
