@@ -1,6 +1,6 @@
 # my-most-watched-twitch-chrome-extension
 
-Extension available at: https://github.com/MaLeprohon/my-most-watched-twitch-chrome-extension
+Extension available at: https://chrome.google.com/webstore/detail/my-top-10-most-watched-tw/ijjhhldncdhjkpnohencpcdlhdjchjif
 
 Compiles a top 10 of your most watched Twitch streamers and displays it into a graph.
 Ever wondered which Twitch streamer you watch the most? What about a whole Top 10?!
